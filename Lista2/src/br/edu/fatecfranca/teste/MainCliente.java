@@ -1,4 +1,4 @@
-package br.edu.fatecfranca;
+package br.edu.fatecfranca.teste;
 
 import br.edu.fatecfranca.exe01.Cliente;
 
