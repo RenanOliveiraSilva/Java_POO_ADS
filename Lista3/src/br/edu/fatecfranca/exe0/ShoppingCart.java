@@ -10,13 +10,11 @@ public class ShoppingCart {
     private String destino;
     private String formaPagto;
     private float precoTotal;
+
     //Composição
-    private List<CarItem> carItens;
+    private List<CarItem> carItens = new ArrayList<CarItem>();  // é preciso alocar espaço para o vetor
 
-    public ShoppingCart() {
-        this.carItens = new ArrayList<CarItem>(); // aloca espaço para o vetor
-
-    }
+    public ShoppingCart() {}
 
     public ShoppingCart(int id, Date data, String destino, String formaPagto, float precoTotal) {
         this.id = id;
