@@ -1,3 +1,5 @@
+package br.edu.fatecfranca.teste;
+
 import br.edu.fatecfranca.exe0.Product;
 import br.edu.fatecfranca.exe0.ShoppingCart;
 
@@ -16,3 +18,6 @@ public class Main {
         System.out.println(cart1);
     }
 }
+
+// Agregação(independencia) = diamante em branco
+// Composição(dependencia) = diamante preenchido
