@@ -1,3 +1,5 @@
+package br.edu.fatecfranca.teste;
+
 import br.edu.fatecfranca.exe0.Assistente;
 import br.edu.fatecfranca.exe0.Diretor;
 import br.edu.fatecfranca.exe0.Funcionario;
