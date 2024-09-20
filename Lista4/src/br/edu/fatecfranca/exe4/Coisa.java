@@ -1,5 +1,7 @@
 package br.edu.fatecfranca.exe4;
 
-public class Coisa {
+public abstract class Coisa {
 
+    public abstract int vence(Coisa outra);
+    public abstract String getNome();
 }
