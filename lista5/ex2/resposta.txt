@@ -1,0 +1,5 @@
+-- Interface vs Classe Abstrata --
+
+1. Interfaces não possuem propriedades, ao contrário das classes abstratas.
+2. Interfaces permitem herança múltipla, mas classes abstratas não.
+3. Interfaces definem apenas contratos, enquanto classes abstratas podem fornecer implementações parciais.
